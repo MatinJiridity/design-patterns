@@ -7,6 +7,7 @@
  * then directs the call to one or several methods of the wrapped object.
  */
 
+
 export class Target {
     public request(): string {
         return 'Target: The default target\'s behavior.';
